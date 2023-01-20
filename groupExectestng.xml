@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+<groups>
+<run>
+<include name="smoke"></include>
+</run>
+</groups>
+  <test thread-count="2" parallel="tests" name="Test">
+    <classes>
+      <class name="Practice3_Package.DataProviderFromExcelTest"/>
+      <class name="Practice3_Package.SampleTestforBatchExecTest3"/>
+      <class name="Practice3_Package.HowAnnotationWorks"/>
+      <class name="Practice3_Package.SampleTestForBatchExecTest2"/>
+      <class name="com.tms.LetsFeelRomania.admin.testscript.Integration_3Test"/>
+      <class name="Practice3_Package.SampleTestForBatchExecTest"/>
+      <class name="Practice3_Package.DummyTestNg"/>
+      <class name="Practice3_Package.DemmoTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
